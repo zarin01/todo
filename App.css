@@ -1,0 +1,37 @@
+.app {
+  background-image: linear-gradient(to top, black, blueviolet);
+  height: 100vh;
+  padding: 30px;
+}
+
+.todo-list {
+  background: black;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+}
+
+.todo {
+  align-items: center;
+  background: darkgray;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+  color: #e8e8e8;
+}
+button {
+  background-color: blueviolet;
+  border: 1px;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
